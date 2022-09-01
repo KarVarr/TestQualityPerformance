@@ -1,0 +1,36 @@
+.block3 {
+  padding-bottom: 4rem;
+
+  .block3__img {
+    margin: 0 2.5rem;
+    padding: 2.5rem;
+    max-width: 112rem;
+    background-color: $color-lime;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    @include respond(phone) {
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+    .img__img {
+      width: 19.8rem;
+      height: 19.8rem;
+      .img__box {
+        width: 100%;
+        background-color: $color-green-dark;
+        border: 2px solid $color-green-border;
+        border-radius: 3.5rem;
+        aspect-ratio: 1 / 1;
+        aspect-ratio: 1;
+        cursor: pointer;
+        transition: $transition-3;
+        &:hover {
+          box-shadow: 2px 5px 10px $color-green-dark;
+        }
+      }
+    }
+  }
+}

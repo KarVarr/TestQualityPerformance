@@ -1,22 +1,15 @@
-
 @import 'abstracts/mixins';
 @import 'abstracts/variables';
-
 
 @import 'base/base';
 @import 'base/reset';
 @import 'base/typography';
 
-// @import 'companents/bg-video';
+@import 'components/block2';
 @import 'components/button';
-// @import 'companents/card';
-// @import 'companents/composition';
-// @import 'companents/features-box';
-// @import 'companents/form';
-// @import 'companents/popup';
-// @import 'companents/story';
+@import 'components/block3';
+@import 'components/popUpBottom';
 
 @import 'layout/footer';
 @import 'layout/header';
 @import 'layout/navigation';
-

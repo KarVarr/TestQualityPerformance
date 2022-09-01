@@ -1,0 +1,51 @@
+.block2 {
+  padding-bottom: 4.5rem;
+
+  .block2__items {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    .items__top,
+    .items__bottom {
+      display: flex;
+      gap: 1.3rem;
+      @include respond(phone) {
+        flex-direction: column;
+      }
+    }
+
+    .box {
+      height: 19.8rem;
+      font-size: 5.3rem;
+      font-weight: normal;
+      line-height: 6.3rem;
+      background-color: $color-green;
+      display: grid;
+      place-items: center;
+    }
+    .items__box1 {
+      width: 39.2rem;
+      @include respond(phone) {
+        width: 100%;
+      }
+    }
+    .items__box2 {
+      width: 76.5rem;
+      @include respond(phone) {
+        width: 100%;
+      }
+    }
+    .items__box3 {
+      width: 99.5rem;
+      @include respond(phone) {
+        width: 100%;
+      }
+    }
+    .items__box4 {
+      width: 16.2rem;
+      @include respond(phone) {
+        width: 100%;
+      }
+    }
+  }
+}

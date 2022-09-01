@@ -1,14 +1,18 @@
 //color
 $color-primary: #a6c9ff;
-$color-secondary: #FF4B4B;
+$color-secondary: #ff4b4b;
 $color-purple: #b47ff7;
+$color-purple--footer: #d87ff7;
 $color-violet: #7029cb;
 $color-lime: #d4ff5a;
 $color-white: #ffffff;
 $color-green: #3ade4b;
 $color-green-dark: #497957;
-$color-green-border:  #00FF4A;
-
+$color-green-border: #00ff4a;
 
 //fonts
 $font-primary: 'Roboto', sans-serif;
+
+//transition
+$transition-3: all 0.3s ease-in;
+$transition-2: transform 0.2s ease;
