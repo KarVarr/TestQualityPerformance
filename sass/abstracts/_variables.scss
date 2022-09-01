@@ -6,6 +6,7 @@ $color-purple--footer: #d87ff7;
 $color-violet: #7029cb;
 $color-lime: #d4ff5a;
 $color-white: #ffffff;
+$color-black: #000000;
 $color-green: #3ade4b;
 $color-green-dark: #497957;
 $color-green-border: #00ff4a;
@@ -14,5 +15,7 @@ $color-green-border: #00ff4a;
 $font-primary: 'Roboto', sans-serif;
 
 //transition
-$transition-3: all 0.3s ease-in;
+$transition-1: transform 1s;
 $transition-2: transform 0.2s ease;
+$transition-3: all 0.3s ease-in;
+$transition-5: all 0.5s 0.2s;

@@ -30,9 +30,9 @@
         </ul>
         <!-- ---------------------------- -->
         <div class="nav__burger">
-          <span class="bar " id="line--1"></span>
+          <span class="bar" id="line--1"></span>
           <span class="bar" id="line--2"></span>
-          <span class="bar " id="line--3"></span>
+          <span class="bar" id="line--3"></span>
           <div class="burger__menu">
             <ul class="menu__links">
               <li><a href="#" class="links__link">Text</a></li>
@@ -41,80 +41,97 @@
               <li><a href="#" class="links__link">Text</a></li>
             </ul>
             <div class="menu__btn">
-              <button class="btn">Open pop-up button</button>
+              <a href="#popup" class="btn">Open pop-up button</a>
             </div>
           </div>
         </div>
       </nav>
       <!-- =========HEADER========= -->
       <header class="header">
-        <img
-          src="img/ArrowLeft.svg"
-          alt="ArrowLeft"
-          class="header__arrow--left"
-        />
-        <div class="header__slider">
-          <h1 class="title">H1 text</h1>
-          <button class="btn">Open pop-up button</button>
+        <div class="slider">
+          <div class="slide">
+            <h1 class="title">H1 text</h1>
+            <a href="#popup" class="btn">Open pop-up button</a>
+          </div>
+          <div class="slide">
+            <h1 class="title">H1 text2</h1>
+            <a href="#popup" class="btn">Open pop-up button</a>
+          </div>
+          <div class="slide">
+            <h1 class="title">H1 text3</h1>
+            <a href="#popup" class="btn">Open pop-up button</a>
+          </div>
+          <div class="slide">
+            <h1 class="title">H1 text4</h1>
+            <a href="#popup" class="btn">Open pop-up button</a>
+          </div>
+
+          <img
+            src="img/ArrowLeft.svg"
+            alt="ArrowLeft"
+            class="header__arrow--left header__arrow"
+          />
+          <img
+            src="img/ArrowRight.svg"
+            alt="ArrowRight"
+            class="header__arrow--right header__arrow"
+          />
         </div>
-        <img
-          src="img/ArrowRight.svg"
-          alt="ArrowRight"
-          class="header__arrow--right"
-        />
       </header>
       <!-- =========BLOCK2========= -->
-      <section class="block2">
-        <div class="block2__subtitle">
-          <h2 class="subtitle">H2 text</h2>
-        </div>
-        <!-- ---------------------------- -->
-        <div class="block2__items">
-          <div class="items__top">
-            <div class="items__box1 box">1</div>
-            <div class="items__box2 box">2</div>
+      <main>
+        <section class="block2">
+          <div class="block2__subtitle">
+            <h2 class="subtitle">H2 text</h2>
           </div>
-          <div class="items__bottom">
-            <div class="items__box3 box">3</div>
-            <div class="items__box4 box">4</div>
+          <!-- ---------------------------- -->
+          <div class="block2__items">
+            <div class="items__top">
+              <div class="items__box1 box"></div>
+              <div class="items__box2 box"></div>
+            </div>
+            <div class="items__bottom">
+              <div class="items__box3 box"></div>
+              <div class="items__box4 box"></div>
+            </div>
           </div>
-        </div>
-      </section>
-      <!-- =========BLOCK3========= -->
-      <section class="block3">
-        <div class="block3__subtitle">
-          <h2 class="subtitle">H2 text</h2>
-        </div>
-        <!-- ---------------------------- -->
-        <div class="block3__img">
-          <div class="img__img">
-            <div class="img__box"></div>
+        </section>
+        <!-- =========BLOCK3========= -->
+        <section class="block3">
+          <div class="block3__subtitle">
+            <h2 class="subtitle">H2 text</h2>
           </div>
-          <div class="img__img">
-            <div class="img__box"></div>
+          <!-- ---------------------------- -->
+          <div class="block3__img">
+            <div class="img__img">
+              <div class="img__box"></div>
+            </div>
+            <div class="img__img">
+              <div class="img__box"></div>
+            </div>
+            <div class="img__img">
+              <div class="img__box"></div>
+            </div>
+            <div class="img__img">
+              <div class="img__box"></div>
+            </div>
+            <div class="img__img">
+              <div class="img__box"></div>
+            </div>
           </div>
-          <div class="img__img">
-            <div class="img__box"></div>
-          </div>
-          <div class="img__img">
-            <div class="img__box"></div>
-          </div>
-          <div class="img__img">
-            <div class="img__box"></div>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- =========POP UP BOTTOM========= -->
-      <section class="popUpBottom">
-        <div class="popUpBottom__subtitle">
-          <h2 class="subtitle subtitle--bottom">Text utp</h2>
-        </div>
-        <!-- ---------------------------- -->
-        <div class="popUpBottom__btn">
-          <button class="btn">Open pop-up button</button>
-        </div>
-      </section>
+        <!-- =========POP UP BOTTOM========= -->
+        <section class="popUpBottom">
+          <div class="popUpBottom__subtitle">
+            <h2 class="subtitle subtitle--bottom">Text utp</h2>
+          </div>
+          <!-- ---------------------------- -->
+          <div class="popUpBottom__btn">
+            <a href="#popup" class="btn">Open pop-up button</a>
+          </div>
+        </section>
+      </main>
       <!-- =========FOOTER========= -->
       <footer class="footer">
         <ul class="footer__links">
@@ -125,6 +142,13 @@
         </ul>
       </footer>
       <!-- END CONTAINER -->
+    </div>
+
+    <div class="popup" id="popup">
+      <div class="popup__content">
+        <h3 class="popup__text">Pop-up</h3>
+        <a href="#" class="popup__close">x</a>
+      </div>
     </div>
 
     <!-- JavaScript -->

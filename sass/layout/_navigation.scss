@@ -40,7 +40,7 @@
       background-color: $color-white;
       position: relative;
       transition: $transition-2;
-      z-index: 2;
+      z-index: 5;
     }
     .active__line--1 {
       transform: translateY(12px) rotate(45deg) !important;
@@ -69,6 +69,10 @@
       flex-direction: column;
       gap: 3.9rem;
       margin-bottom: 5.5rem;
+      @include respond(phone) {
+        margin-bottom: 1rem;
+        gap: 3rem;
+      }
       .links__link {
         font-size: 2.8rem;
         font-weight: 500;

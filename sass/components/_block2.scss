@@ -7,11 +7,15 @@
     gap: 1.3rem;
     .items__top,
     .items__bottom {
+      counter-reset: num;
       display: flex;
       gap: 1.3rem;
       @include respond(phone) {
         flex-direction: column;
       }
+    }
+    .items__bottom {
+      counter-reset: num 2;
     }
 
     .box {
@@ -25,24 +29,40 @@
     }
     .items__box1 {
       width: 39.2rem;
+      &::before {
+        counter-increment: num;
+        content: counter(num);
+      }
       @include respond(phone) {
         width: 100%;
       }
     }
     .items__box2 {
       width: 76.5rem;
+      &::before {
+        counter-increment: num;
+        content: counter(num);
+      }
       @include respond(phone) {
         width: 100%;
       }
     }
     .items__box3 {
       width: 99.5rem;
+      &::before {
+        counter-increment: num;
+        content: counter(num);
+      }
       @include respond(phone) {
         width: 100%;
       }
     }
     .items__box4 {
       width: 16.2rem;
+      &::before {
+        counter-increment: num;
+        content: counter(num);
+      }
       @include respond(phone) {
         width: 100%;
       }
