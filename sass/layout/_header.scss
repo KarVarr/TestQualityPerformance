@@ -1,0 +1,22 @@
+.header {
+  margin: 4rem 0;
+  padding: 4.9rem 5.075rem 5.24rem;
+  background-color: $color-violet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+
+  .header__arrow--left,
+  .header__arrow--right {
+    width: 3.728rem;
+    height: 7.456rem;
+  }
+  .header__arrow--right {
+  }
+
+  .header__slider {
+    display: flex;
+  }
+}
+ 
